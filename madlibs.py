@@ -6,22 +6,22 @@
 # A noun is a person/place/thing. An adjective describes a person/place/thing.)
 
 
-Animal =input ("Enter Your favorite Animal")
-Feeling = input ("what is your feeling like")
-Things1 =input ("What is that tings ")
-Profession = input ("what is your favorite profession like")
-clothing = input("What is the clothing like? ")
-Things = input("what is the thing like? ")
-Person = input ("Your favorite person? ")
-Place = input ("Your favourite place to visit? ")
-verb = input ("Enter a verb")
-Food = input ("Enter your favorite food? ")
+Animal =    input ("Favorite Petname ")
+Feeling =   input ("what do you feel like doing? ")
+Things1 =   input ("Name Anything")
+Profession = input ("Favorite profession")
+clothing =   input("Cloth Style")
+Things =    input("Name Anything? ")
+Person =    input ("Favorite Person? ")
+Place =     input ("Favourite place ")
+verb =      input ("verb")
+Food =       input ("Favorite food? ")
 
-myphotoshootmadlib =f"Say {Food} the photographer said as the camera flashed! \
-    {Person} and I had gone to {Place} to get our photos taken today. \
+myphotomadlibs=f"Say {Food} the photographer said as the camera flashed! \
+    {Person} and I had gone to {Place} to get our photos taken today \
     The first photo we really wanted was a picture of us dressed as {Animal} pretending to be a {Profession}\
     When we saw the proofs of it, I was a bit {Feeling} because it looked different than in my head. \
-    (I hadn't imagined so many {Things1}behind us.) However, the second photo was exactly what I wanted. \
-    We both looked like {Things} wearing {clothing} and {verb} --exactly what I had in mind!"
-print = myphotoshootmadlib
+    (I hadn't imagined so many {Things1} behind us.) However, the second photo was exactly what I wanted. \
+    We both looked like {Things} wearing {clothing} and {verb} exactly what I had in mind!"
 
+print (myphotomadlibs)
